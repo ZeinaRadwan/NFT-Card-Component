@@ -1,0 +1,202 @@
+/*Start Varaibles*/ 
+
+:root{
+    --main-color: hsl(178, 100%, 50%)
+}
+/*End Varaibles*/
+*{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    
+}
+body{
+    background-color: hsl(217, 54%, 11%);
+    font-family: 'Outfit', sans-serif;
+}
+.parent{
+        background-color: hsl(216, 50%, 16%);
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-end;
+        flex-wrap: wrap;
+        box-shadow: 0 0 35px 0px hsl(217deg 54% 11%);
+        position: relative;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 360px;
+        height: 650px;
+        border-radius: 15px;
+
+}
+figure img{
+    border-radius: 15px;
+    margin: 0 10px 0 10px;
+    transform: translate(-175px, -130px) scale(0.53);
+}
+figure svg{
+    transform: translate(117px, -465px);
+    visibility: hidden;
+}
+figure img:hover{
+    filter: opacity(0.5) drop-shadow(0 0 0 hsl(178, 100%, 50%));
+    cursor:pointer
+}
+figure img:hover + svg{
+    visibility: visible;
+}
+.parent h1{
+        color: hsl(0, 0%, 100%);
+        font-size: 25px;
+        transform: translate(1px, -338px);
+        padding-left: 22px;
+} 
+h1:hover{
+    cursor: pointer;
+    color: hsl(178, 100%, 50%)
+
+}
+.parent p{
+    color: hsl(215, 51%, 70%);
+    font-size: 18px;
+    line-height: 1.6;
+    max-width: 100%;
+    transform: translate(1px, -350px);
+    padding-left: 22px;
+}
+.right-corner p{
+    transform: translate(230px, -365px);
+}
+.right-corner svg{
+    transform: translate(230px, -405px);
+}
+.left-corner p{
+    transform: translate(-80px, -365px);
+    color: var(--main-color);
+}
+.left-corner svg{
+transform: translate(-80px, -405px);
+}
+.parent hr{
+    background-color: #9e9e9e30;
+    border: none;
+    width:320px;
+    height: 1px;
+    transform: translate(1px, -395px);
+}
+.creator{
+    position: relative;
+    top: -205px;
+    left: -750px;
+}
+.creator img{
+    border: 5px solid white;
+    border-radius: 50%;
+    transform: translate(740px, -239px) scale(0.28);
+}
+.creator p{
+    color: hsl(215deg 43% 68%);
+    font-size: 15px;
+    transform: translate(828px, -340px);
+    padding-left: 20px;
+}
+.creator span{
+    color: white;
+}
+.creator span:hover{
+    cursor: pointer;
+    color: var(--main-color);
+}
+.footer{
+    margin-left: 20px;
+    margin-top: 240px;
+    color: aliceblue;
+    font-weight: normal;
+    font-size: 14px;
+    text-align: center;
+}
+.footer a{
+    color: aqua;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding-left: 3px;
+}
+.footer a:visited{
+    color: blue;
+}
+@media(max-width:374px){
+    .parent{
+    width: 320px;
+    height: 550px;
+    margin-left: 30px;
+    padding: 10px;
+    margin-top: 150px;
+    margin-bottom: 150px;
+    border-radius: 15px;
+}
+    figure img{
+        transform: translate(-200px, -150px) scale(0.46);
+        border-radius: 25px;
+        margin-top: -15px;
+    }
+    figure svg{
+        transform: translate(87px, -481px);
+    }
+    .parent h1{
+        transform: translate(10px, -380px);
+    }
+    .parent p{
+        transform: translate(10px, -390px);
+    font-size: 16px;
+    line-height: 1.6;
+}
+    .right-corner p{
+        transform: translate(214px, -400px);
+}
+    .right-corner svg{
+        transform: translate(193px, -437px);
+}
+    .left-corner p{
+        margin-top: -70px;
+        margin-left: -55px;
+    
+}
+    .left-corner svg{
+        transform: translate(-64px, -427px);
+
+}
+    .parent hr{
+        transform: translate(1px, -430px);
+        width: 290px;    
+}
+    .creator img{
+        transform: translate(1px,-252px) scale(0.22);
+}
+    .creator p{
+        transform: translate(80px, -355px);
+        padding-left: 20px;}
+
+}
+@media(min-width:375px) and (max-width:1440px){
+    .parent{
+        margin-left: 550px;
+        margin-top: 750px;
+        margin-bottom: auto;
+}
+    figure img{
+        padding-left: 5px;
+}
+}
+@media(min-width:1441px){
+    .parent{
+        margin-left: 1150px;
+        margin-top: 800px;
+    }
+    .figure img{
+        padding:2px;
+    }
+}
+    
+
+
+
