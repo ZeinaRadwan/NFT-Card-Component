@@ -126,13 +126,13 @@ transform: translate(-80px, -405px);
 }
 @media(max-width:374px){
     .parent{
-    width: 320px;
-    height: 550px;
-    margin-left: 30px;
-    padding: 10px;
-    margin-top: 150px;
-    margin-bottom: 150px;
-    border-radius: 15px;
+        width: 320px;
+        height: 550px;
+        margin-left: 130px;
+        padding: 10px;
+        margin-top: 550px;
+        margin-bottom: 150px;
+        border-radius: 15px;
 }
     figure img{
         transform: translate(-200px, -150px) scale(0.46);
@@ -143,38 +143,39 @@ transform: translate(-80px, -405px);
         transform: translate(87px, -481px);
     }
     .parent h1{
-        transform: translate(10px, -380px);
+        transform: translate(-6px, -380px);
     }
-    .parent p{
-        transform: translate(10px, -390px);
-    font-size: 16px;
-    line-height: 1.6;
+    .parent  p{
+        transform: translate(-6px, -395px);
+        font-size: 16px;
+        line-height: 1.6;
 }
     .right-corner p{
-        transform: translate(214px, -400px);
+        transform: translate(200px, -420px);
 }
     .right-corner svg{
-        transform: translate(193px, -437px);
+        transform: translate(200px, -455px);
 }
     .left-corner p{
-        margin-top: -70px;
-        margin-left: -55px;
+        transform: translate(-90px, -417px);
     
 }
     .left-corner svg{
-        transform: translate(-64px, -427px);
+        transform: translate(-85px, -454px);
 
 }
     .parent hr{
-        transform: translate(1px, -430px);
+        transform: translate(1px, -450px);
         width: 290px;    
 }
     .creator img{
-        transform: translate(1px,-252px) scale(0.22);
+        position: relative;
+        top: -55px;
+        left: -20px;
 }
+
     .creator p{
-        transform: translate(80px, -355px);
-        padding-left: 20px;}
+        transform: translate(798px, -395px);}
 
 }
 @media(min-width:375px) and (max-width:1440px){
