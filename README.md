@@ -29,7 +29,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [https://www.frontendmentor.io/solutions/nft-card-component-Syz0nLSrq](https://www.frontendmentor.io/solutions/nft-card-component-Syz0nLSrq)
+- Solution URL: [https://www.frontendmentor.io/solutions/nft-card-component-B10GT1iH9](https://www.frontendmentor.io/solutions/nft-card-component-B10GT1iH9)
 - Live Site URL: [https://zeinaradwan.github.io/NFT-Card-Component/](https://zeinaradwan.github.io/NFT-Card-Component/)
 
 ## My process
